@@ -1,0 +1,17 @@
+:root{
+    --grey:#666666;
+    --dark-grey:#42446E;
+    --black:#000000;
+    --bg:#191919;
+    --white:white;
+}
+$grey:var(--grey);
+$dark-grey:var(--dark-grey);
+$black:var(--black);
+$bg:var(--bg);
+$white: var(--white);
+@mixin gradent{
+    background: linear-gradient(62.8deg, #00C0FD -167.81%, #E70FAA 267.18%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
