@@ -404,7 +404,7 @@ footer .bottom p span {
     display: block;
   }
   .swiper .p-dp-6 {
-    display: block;
+    display: none;
   }
   .My-Tech-Stack .main {
     margin-top: 70px;
@@ -452,6 +452,9 @@ footer .bottom p span {
   footer .top {
     flex-direction: column;
   }
+  footer .bottom p {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 425px) {
   .swiper .dp-1 {
@@ -489,5 +492,14 @@ footer .bottom p span {
   }
   .My-Tech-Stack .main .cards .card img {
     width: 50%;
+  }
+  footer .top {
+    flex-direction: column;
+  }
+  footer .bottom {
+    justify-content: center;
+  }
+  footer .bottom p {
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */

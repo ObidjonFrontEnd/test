@@ -257,7 +257,9 @@
             flex-direction: column;
         }
         .bottom{
-            text-align: center;
+            p{
+                text-align: center;
+            }
         }
        
     }
@@ -316,6 +318,18 @@
                 }
             }
         }
+    }
+    footer{  
+        .top{
+            flex-direction: column;
+        }
+        .bottom{
+            justify-content: center;
+            p{
+                text-align: center;
+            }
+        }
+       
     }
    
 }
