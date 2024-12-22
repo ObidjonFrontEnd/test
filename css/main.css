@@ -452,9 +452,6 @@ footer .bottom p span {
   footer .top {
     flex-direction: column;
   }
-  footer .bottom {
-    display: none;
-  }
 }
 @media screen and (max-width: 425px) {
   .swiper .dp-1 {
