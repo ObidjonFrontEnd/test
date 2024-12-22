@@ -471,7 +471,7 @@ footer .bottom p span {
     height: 100% !important;
   }
   .swiper .dp-4 {
-    display: block;
+    display: none;
     height: 100% !important;
   }
   .header .hero {
